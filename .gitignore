@@ -1,0 +1,8 @@
+.env
+venv
+project_explanation.txt
+eda.py
+fetch_data.py
+
+*__pycache__/
+*.pyc
