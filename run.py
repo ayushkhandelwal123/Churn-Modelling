@@ -1,18 +1,19 @@
-from src.train import train_model
-from src.evaluate import evaluate_model
+from src.compare_models import compare_models
 from src.save_model import save_model
 
 MODEL_PATH = "./models/churn_model.pkl"
 
+
 def main():
 
-    model, X_test, y_test = train_model()
+    best_model, results_df = compare_models()
 
-    evaluate_model(model, X_test, y_test)
+    print("\nSaving Best Model...")
 
-    save_model(model, MODEL_PATH)
+    save_model(best_model, MODEL_PATH)
 
-    print("Model saved successfully.")
+    print("Best model saved successfully.")
+
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,3 @@
+from src.feature_importance import plot_feature_importance
+
+plot_feature_importance()

@@ -8,3 +8,4 @@ openopyxl
 fastapi
 uvicorn
 joblib
+xgboost
