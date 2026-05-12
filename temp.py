@@ -1,3 +1,3 @@
-from src.feature_importance import plot_feature_importance
+from src.tune_model import tune_xgboost
 
-plot_feature_importance()
+best_model = tune_xgboost()

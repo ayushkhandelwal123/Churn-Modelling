@@ -1,0 +1,6 @@
+{
+    "best_model": "XGBoost",
+    "optimal_threshold": 0.45000000000000007,
+    "roc_auc": 0.8470888487402353,
+    "training_date": "2026-05-12 18:30:30.454795"
+}

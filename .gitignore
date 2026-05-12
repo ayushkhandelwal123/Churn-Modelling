@@ -6,3 +6,9 @@ fetch_data.py
 
 *__pycache__/
 *.pyc
+
+feature_importance.py
+plot_roc.py
+evaluate.py
+compare_models.py
+train.py
