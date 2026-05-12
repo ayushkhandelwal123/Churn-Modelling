@@ -7,8 +7,8 @@ fetch_data.py
 *__pycache__/
 *.pyc
 
-feature_importance.py
-plot_roc.py
-evaluate.py
-compare_models.py
-train.py
+src/feature_importance.py
+src/plot_roc.py
+src/evaluate.py
+src/compare_models.py
+src/train.py
